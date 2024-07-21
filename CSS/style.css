@@ -1,0 +1,336 @@
+body{
+    font: 15px Arial, Helvetice, Sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: snow white;
+    
+}
+
+/*Global*/
+.container{
+    width: 80;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: white;
+    background: greenyellow;
+    border-bottom: grey 3px solid;
+    min-height: 70px;
+    padding-top: 30px;
+}
+
+header a{
+    color:white;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+    header li{
+        float: left;
+        display: inline;
+        padding: 20px;
+    }
+
+    .big{
+        float: right;
+        margin-bottom: 10px;
+    }
+
+    header h1{
+        padding: 20px;
+       float: left;
+       margin: 0;
+    }
+
+nav{
+    float: right;
+    margin-top:10px;
+    margin-left: 30px;
+}
+
+#edit{
+    color: red;
+}
+
+a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+ 
+.current{
+    background-color: blueviolet; 
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#dark{
+    background: url('../img/img11.jpg');
+    background-size: cover;
+    padding: 10px;
+
+}
+    
+#slider {
+    overflow: hidden;
+    margin-left: 250px;
+    margin-right: 350px;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+     left: 0;
+     animation: 20s slider infinite;
+}
+
+#slider figure img{
+    float: left;
+    width: 20%;
+    height: 300px;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+#dark h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: cyan;
+}
+
+#book_1 p{
+   font-family: cursive;
+    width: 35%;
+    color: white;
+    font-size: xx-large;
+}
+
+footer{
+    color: white;
+    background-color: orange;
+    height: 20px;
+    padding: 60px;
+}
+
+#foot{
+    margin-top: 10px;
+    text-align: center;
+
+}
+   span{
+    color: red;
+    text-transform: uppercase;
+   }
+
+   #newsletter{
+    padding-left: 30px;
+    background-color:violet;
+    padding: 20px;
+   }
+
+   #newsletter forms{
+    float: right;
+    margin-top: 20px;
+    padding-right: 10px;
+   }
+
+   #newsletter h1{
+    float: left;
+   }
+
+   #newsletter input[type=email]{
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+   }
+   #newsletter button:hover{
+    background-color: orange;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+   }
+
+   article p{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background: cyan;
+    width: 500px;
+    margin-left: 20px;
+   height: 50px;
+   color: white;
+   float: left;
+   }
+
+   #book{
+    background-color: grey;
+    padding: 10px;
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    color: white;
+   }
+
+   article h1{
+    margin-left: 50px;
+    color: cornflowerblue;
+   }
+
+   #rope{
+    background-image: url('../img/img10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: bisque;
+    font-weight: bold;
+    padding: 10px;
+   }
+   
+section ul{
+    width: 500px;
+    margin-left: 20px;
+    float: left;
+}
+
+#photo{
+    float: right;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding-top: 10px;
+    width: 400px;
+}
+
+.signUp{
+    background-image: url('../img/img5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
+}
+#item{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 180px;
+   margin: 0 auto;
+   color: white;
+}
+#bigs{
+    width: 240px;
+    text-align: center;
+}
+
+#bigs input{
+    width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px white;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+forms button{
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+button:hover{
+    background-color: blue;
+    font-weight: bold;
+    color: orange;
+    cursor: pointer;
+}
+
+#item a{
+    color: red;
+    text-decoration: none;
+}
+
+.shine{
+    background: url('../img/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+#can img{
+    width: 40px;
+}
+
+ .shine h1{
+    text-align: center;
+    color: blue;
+ }
+ 
+ .shine p{
+    text-align: center;
+   color: white;
+ }
+ 
+
+ #variety{
+float: right;
+width: 90;
+margin-right: 100px;
+ }
+
+ #variety h2{
+    color: white;
+ }
+ 
+ #variety input{
+   height: 20px;
+   outline: none;
+ }
+
+ table img{
+    width: 50px;
+ }
+ 
+ footer img{
+   width: 30px;
+   padding-top: 1px;
+ }
